@@ -7,7 +7,8 @@ target 'stretchy-header' do
 
   # Pods for stretchy-header
   pod 'SnapKit'
-  pod 'Kingfisher'  
+  pod 'Kingfisher'
+  pod 'FlexiblePageControl'
 
   target 'stretchy-headerTests' do
     inherit! :search_paths

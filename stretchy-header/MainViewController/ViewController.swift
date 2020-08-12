@@ -104,6 +104,15 @@ extension ViewController: ImagePageViewControllerDataSource {
         let imageURLs: [URL] = [
             URL(string: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753")!,
             URL(string: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg")!,
+            URL(string: "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg")!,
+            URL(string: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753")!,
+            URL(string: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg")!,
+            URL(string: "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg")!,
+            URL(string: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753")!,
+            URL(string: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg")!,
+            URL(string: "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg")!,
+            URL(string: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753")!,
+            URL(string: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg")!,
             URL(string: "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg")!
         ]
         return imageURLs

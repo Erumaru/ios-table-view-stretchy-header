@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F4BE967F5CDFA37E06133CF9E58687E"
-               BlueprintName = "SnapKit"
+               BlueprintIdentifier = "C6AFE7E0D60323D923006FE36675104D"
+               BlueprintName = "FlexiblePageControl"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SnapKit.framework">
+               BuildableName = "FlexiblePageControl.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

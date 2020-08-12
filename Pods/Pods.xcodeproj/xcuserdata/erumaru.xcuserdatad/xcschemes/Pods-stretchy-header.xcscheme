@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E022C62277D80AE0A168A0C67F94D81"
+               BlueprintIdentifier = "C9DC2D1290B4E7583A0ABA2B9F4AEEE3"
                BuildableName = "Pods_stretchy_header.framework"
                BlueprintName = "Pods-stretchy-header"
                ReferencedContainer = "container:Pods.xcodeproj">

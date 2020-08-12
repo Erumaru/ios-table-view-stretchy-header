@@ -17,6 +17,7 @@
 		57D91D0824E2A046004A3D54 /* stretchy_headerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D91D0724E2A046004A3D54 /* stretchy_headerUITests.swift */; };
 		57D91D1624E2BA6F004A3D54 /* ImagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D91D1524E2BA6F004A3D54 /* ImagePageViewController.swift */; };
 		57D91D1924E2BEA6004A3D54 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D91D1824E2BEA6004A3D54 /* ImageViewController.swift */; };
+		57D91D2824E3D4B3004A3D54 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D91D2724E3D4B3004A3D54 /* PageControl.swift */; };
 		AFFCE942A55A5A21B0741700 /* Pods_stretchy_headerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F117B3110FED00F4E2155B4 /* Pods_stretchy_headerTests.framework */; };
 		C72AA6711B7E6AD9B9BCF4A4 /* Pods_stretchy_headerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA8A30286FDB87000491DDC /* Pods_stretchy_headerUITests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		57D91D0924E2A046004A3D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D91D1524E2BA6F004A3D54 /* ImagePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePageViewController.swift; sourceTree = "<group>"; };
 		57D91D1824E2BEA6004A3D54 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		57D91D2724E3D4B3004A3D54 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		67BB40CEEF118F9FEC344942 /* Pods-stretchy-headerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretchy-headerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretchy-headerTests/Pods-stretchy-headerTests.release.xcconfig"; sourceTree = "<group>"; };
 		6C736C6403F0BC873A70B4A9 /* Pods_stretchy_header.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stretchy_header.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F117B3110FED00F4E2155B4 /* Pods_stretchy_headerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stretchy_headerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +143,7 @@
 		57D91CE424E2A036004A3D54 /* stretchy-header */ = {
 			isa = PBXGroup;
 			children = (
+				57D91D2624E3D49B004A3D54 /* PageControl */,
 				57D91D1A24E2C7F8004A3D54 /* MainViewController */,
 				57D91D1724E2BE8D004A3D54 /* ImagePageViewController */,
 				57D91CE524E2A036004A3D54 /* AppDelegate.swift */,
@@ -185,6 +188,14 @@
 				57D91CE924E2A036004A3D54 /* ViewController.swift */,
 			);
 			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		57D91D2624E3D49B004A3D54 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				57D91D2724E3D4B3004A3D54 /* PageControl.swift */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +359,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-stretchy-header/Pods-stretchy-header-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlexiblePageControl/FlexiblePageControl.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
@@ -355,6 +367,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexiblePageControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
@@ -416,6 +429,7 @@
 			files = (
 				57D91CEA24E2A036004A3D54 /* ViewController.swift in Sources */,
 				57D91CE624E2A036004A3D54 /* AppDelegate.swift in Sources */,
+				57D91D2824E3D4B3004A3D54 /* PageControl.swift in Sources */,
 				57D91D1924E2BEA6004A3D54 /* ImageViewController.swift in Sources */,
 				57D91CE824E2A036004A3D54 /* SceneDelegate.swift in Sources */,
 				57D91D1624E2BA6F004A3D54 /* ImagePageViewController.swift in Sources */,

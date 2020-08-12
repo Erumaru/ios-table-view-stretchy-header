@@ -1,22 +1,26 @@
 PODS:
+  - FlexiblePageControl (1.0.8)
   - Kingfisher (5.14.1):
     - Kingfisher/Core (= 5.14.1)
   - Kingfisher/Core (5.14.1)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - FlexiblePageControl
   - Kingfisher
   - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FlexiblePageControl
     - Kingfisher
     - SnapKit
 
 SPEC CHECKSUMS:
+  FlexiblePageControl: 07f7765054f16b3f0bc3f14dfd95ab5f45817ea4
   Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 4fcb6ddd3af3617f32cc152a4e77f6ab8d25dfa3
+PODFILE CHECKSUM: c2af1bc61832c1b1d30cf4825b06d7f6793c4c69
 
 COCOAPODS: 1.5.3
